@@ -7,4 +7,4 @@ class ProjectSecuencia(secuencia.ModelSecuencia):
         model = project
         fields = ('id', 'titulo', 'descripcion',
                   'detalles', 'stock', 'precios')
-        read_only_fields = ('detalles')
+        read_only_fields = ('detalles', )
